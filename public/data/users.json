@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "username": "יעל כהן",
+        "email": "y@gmail.com",
+        "password": "1111"
+    },
+    {
+        "id": 2,
+        "username": "אפרת לוי",
+        "email": "e@gmail.com",
+        "password": "2222"
+    },
+    {
+        "id": 3,
+        "username": "ברכה סגל",
+        "email": "b@gmail.com",
+        "password": "3333"
+    }
+    
+]
