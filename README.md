@@ -19,15 +19,25 @@ Users can browse recipes, mark favorites, and navigate through an intuitive, res
 ```
 RecipeHub/
 ├─ public/
-│   └─ index.html         # Main HTML file
+│   ├─ data/               # Static data files
+│   └─ images/             # Images used in the app
 ├─ src/
-│   ├─ components/        # React components (RecipeCard, Header, etc.)
-│   ├─ pages/             # Pages (Home, RecipeDetail, AddRecipe)
-│   ├─ App.jsx            # Main App component
-│   └─ main.jsx           # Entry point of the React app
-├─ .gitignore             # Git ignore rules
-├─ package.json           # Project dependencies and scripts
-└─ README.md              # Project documentation
+│   ├─ app/                # App-level components and routing
+│   ├─ features/
+│   │   ├─ home/           # Home page features
+│   │   ├─ recipes/        # Recipe-related features
+│   │   └─ user/           # User-related features
+│   ├─ App.css             # App-wide CSS
+│   ├─ App.jsx             # Main App component
+│   ├─ index.css           # Global styles
+│   └─ main.jsx            # Entry point of the React app
+├─ .gitignore              # Git ignore rules
+├─ eslint.config.js        # ESLint configuration
+├─ index.html              # Main HTML file
+├─ package-lock.json       # Dependency lock file
+├─ package.json            # Project dependencies and scripts
+├─ README.md               # Project documentation
+└─ vite.config.js          # Vite configuration
 ```
 
 ---
@@ -44,12 +54,12 @@ RecipeHub/
 ## Installation and Running
 1. Clone the repository:
 ```bash
-git clone https://github.com/Hadassa-A/Recipe-Sharing-Website.git
+git clone https://github.com/Hadassa-A/RecipeHub.git
 ```
 
 2. Navigate to the project folder and install dependencies:
 ```bash
-cd Recipe-Sharing-Website
+cd RecipeHub
 npm install
 ```
 
@@ -63,4 +73,4 @@ Open http://localhost:5173 in your browser to view the app.
 ---
 
 ## Author
-Project developed by [Hadassa-Alback](https://github.com/Hadassa-A).
+Project developed by [Hadassa-A](https://github.com/Hadassa-A).
