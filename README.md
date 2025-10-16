@@ -16,18 +16,19 @@ Users can browse recipes, mark favorites, and navigate through an intuitive, res
 ---
 
 ## Project Structure
+```
 RecipeHub/
-│
 ├─ public/
-│   └─ index.html          # Main HTML file
+│   └─ index.html         # Main HTML file
 ├─ src/
-│   ├─ components/         # React components (RecipeCard, Header, etc.)
-│   ├─ pages/              # Pages (Home, RecipeDetail, AddRecipe)
-│   ├─ App.jsx             # Main App component
-│   └─ main.jsx            # Entry point of the React app
-├─ .gitignore              # Git ignore rules
-├─ package.json            # Project dependencies and scripts
-└─ README.md               # Project documentation
+│   ├─ components/        # React components (RecipeCard, Header, etc.)
+│   ├─ pages/             # Pages (Home, RecipeDetail, AddRecipe)
+│   ├─ App.jsx            # Main App component
+│   └─ main.jsx           # Entry point of the React app
+├─ .gitignore             # Git ignore rules
+├─ package.json           # Project dependencies and scripts
+└─ README.md              # Project documentation
+```
 
 ---
 
