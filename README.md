@@ -47,7 +47,7 @@ RecipeHub/
 - Vite
 - CSS
 - React Router
-- Local Storage for saving favorites
+- Local Storage 
 
 ---
 
